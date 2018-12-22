@@ -18,7 +18,7 @@ def main( ):
 	for i in range(upto):
 		print("{} the {}".format(random_choice(verbs), random_choice(nouns)))
 		[sleep(args["time_delay"]) for j in [1] if i!=args["count"]-1]
-		if args["count"] < 0: upto+=1
+		if args["count"] < 0: upto+=2
 
 if __name__=="__main__":
 	try:
